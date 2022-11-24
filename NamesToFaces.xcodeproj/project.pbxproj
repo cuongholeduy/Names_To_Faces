@@ -13,6 +13,8 @@
 		CEA40E77292FAAE9002BA1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA40E75292FAAE9002BA1C3 /* Main.storyboard */; };
 		CEA40E79292FAAEA002BA1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA40E78292FAAEA002BA1C3 /* Assets.xcassets */; };
 		CEA40E7C292FAAEA002BA1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA40E7A292FAAEA002BA1C3 /* LaunchScreen.storyboard */; };
+		CEA40E84292FAE8A002BA1C3 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA40E83292FAE8A002BA1C3 /* PersonCell.swift */; };
+		CEA40E86292FB99C002BA1C3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA40E85292FB99C002BA1C3 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEA40E78292FAAEA002BA1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA40E7B292FAAEA002BA1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA40E7D292FAAEA002BA1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA40E83292FAE8A002BA1C3 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		CEA40E85292FB99C002BA1C3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				CEA40E6F292FAAE9002BA1C3 /* AppDelegate.swift */,
 				CEA40E71292FAAE9002BA1C3 /* SceneDelegate.swift */,
 				CEA40E73292FAAE9002BA1C3 /* ViewController.swift */,
+				CEA40E85292FB99C002BA1C3 /* Person.swift */,
 				CEA40E75292FAAE9002BA1C3 /* Main.storyboard */,
+				CEA40E83292FAE8A002BA1C3 /* PersonCell.swift */,
 				CEA40E78292FAAEA002BA1C3 /* Assets.xcassets */,
 				CEA40E7A292FAAEA002BA1C3 /* LaunchScreen.storyboard */,
 				CEA40E7D292FAAEA002BA1C3 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA40E86292FB99C002BA1C3 /* Person.swift in Sources */,
 				CEA40E74292FAAE9002BA1C3 /* ViewController.swift in Sources */,
 				CEA40E70292FAAE9002BA1C3 /* AppDelegate.swift in Sources */,
+				CEA40E84292FAE8A002BA1C3 /* PersonCell.swift in Sources */,
 				CEA40E72292FAAE9002BA1C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
